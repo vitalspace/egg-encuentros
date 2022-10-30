@@ -2,13 +2,13 @@
 //  cálculo de ingresos mensuales. Puedes hacerlo buscando los últimos ingresos publicitarios en los
 //  informes de marketing. Después de hacer todo eso, revisa mi correo electrónico y si hay menos
 //  de 10 correos sin leer revisa mi correo de voz para ver si hay alguna solicitud de los ejecutivos. Si
-//	hay tales solicitudes, hágalas primero a menos que tenga una solicitud de emergencia de otro
-//	departamento. Una vez que hayas terminado con la solicitud de cumplimiento, riegue la planta
-//	de mi escritorio después de apagar la computadora. Ah, espera, debería haber mencionado un
+//  hay tales solicitudes, hágalas primero a menos que tenga una solicitud de emergencia de otro
+//  departamento. Una vez que hayas terminado con la solicitud de cumplimiento, riegue la planta
+//  de mi escritorio después de apagar la computadora. Ah, espera, debería haber mencionado un
 //  par de cosas: debes iniciar sesión con usuario de administrador para ver los informes de
 //  marketing, y tendrás que enviarme un correo electrónico de actualización justo después de que
 //  termines de manejar las solicitudes. Bueno, gracias de nuevo. ¡Es de gran ayuda! Te debo el
-//	almuerzo cuando regrese." [Continua en la siguiente página]
+//  almuerzo cuando regrese." [Continua en la siguiente página]
 
 
 
