@@ -14,7 +14,7 @@ Funcion calcular(palabra)
 	FinSi
 FinFuncion
 
-Algoritmo test
+Algoritmo longitud_concatenar
 	Definir palabra Como Caracter
 	Escribir "Ingrese una palabra o frase"
 	Leer palabra
