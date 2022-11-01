@@ -8,9 +8,9 @@ Funcion calcular(palabra)
 	Definir resultado Como Entero
 	resultado = Longitud(palabra)
 	Si resultado == 4 Entonces
-		Escribir  palabra + "!"
+		Escribir  Concatenar(palabra,"!")
 	SiNo
-		Escribir  palabra + "?"
+		Escribir  Concatenar(palabra,"?")
 	FinSi
 FinFuncion
 
