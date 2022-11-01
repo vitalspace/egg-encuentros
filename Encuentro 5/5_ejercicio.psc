@@ -4,7 +4,7 @@
 // investigar la función Subcadena de PseInt.
 
 Funcion calcular(palabra) 
-	Definir resultado  Como Cadena
+	Definir resultado Como Cadena
 	resultado = Subcadena(palabra,0,0)
 	Si resultado == "A" Entonces
 		Escribir "CORRECTO"
