@@ -11,7 +11,7 @@ Algoritmo sin_titulo
 	suma = viejoNum
 	Mientras nuevoNum > viejoNum Hacer
 		suma = suma + nuevoNum
-		Escribir "La actual es ",suma,  " Ingrese mas numeros: "		
+		Escribir "El valor actual de la suma es: ",suma,  " Ingrese mas numeros: "		
 		viejoNum = nuevoNum
 		Leer  nuevoNum
 	FinMientras
