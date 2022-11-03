@@ -11,5 +11,5 @@ Algoritmo calcular_digitos
 		num = trunc(num/10)
 		contador = contador + 1
 	FinMientras
-	Escribir  "El numero con ingresaste tiene: ",  contador , " digitos."	
+	Escribir  "El numero que ingresaste tiene: ",  contador , " digitos."	
 FinAlgoritmo
