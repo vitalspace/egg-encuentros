@@ -4,7 +4,7 @@
 // número. El programa continuará solicitando valores sucesivamente mientras los valores
 // ingresados sean mayores que 3.1, caso contrario, el programa finaliza.
 
-Algoritmo sin_titulo
+Algoritmo solicitar_numeros
 	Definir viejoNum, nuevoNum, suma Como Real
 	Leer  nuevoNum
 	viejoNum = 1
