@@ -1,5 +1,5 @@
-// Programar un juego donde la computadora elige un número al azar entre 1 y 10, y a
-// continuación el jugador tiene que adivinarlo. La estructura del programa es la siguiente:
+// 	Programar un juego donde la computadora elige un número al azar entre 1 y 10, y a
+// 	continuación el jugador tiene que adivinarlo. La estructura del programa es la siguiente:
 //	1o) El programa elige al azar un número n entre 1 y 10.
 //	2o) El usuario ingresa un número x.
 //	3o) Si x no es el número exacto, el programa indica si n es más grande o más pequeño
