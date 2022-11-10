@@ -12,8 +12,6 @@ Algoritmo Login_Ejercicio
 	leer usario
 	
 	si usario == "Albus_D" Entonces
-		Escribir "Ingrese contrasena"
-		Leer  contrasena
 		Mientras  intentos < 3 y !login  Hacer
 			intentos = intentos + 1
 			Escribir "ingrese contrasena"
