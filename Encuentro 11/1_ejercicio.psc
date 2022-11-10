@@ -24,7 +24,7 @@ Algoritmo Login_Ejercicio
 			FinSi
 			si login Entonces
 				Hacer
-					Escribir "Selecione menu, 1) Ingresar botellas, 2), Consultal saldo, 3) Salir  "
+					Escribir "Selecione menu, 1) Ingresar botellas, 2), Consultar saldo, 3) Salir  "
 					Leer menu
 					si menu == "Ingresar botellas" Entonces
 						Escribir "Cantidad de botellas"
