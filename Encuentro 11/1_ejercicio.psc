@@ -24,9 +24,9 @@ Algoritmo Login_Ejercicio
 			FinSi
 			si login Entonces
 				Hacer
-					Escribir "Selecione menu, 1) Ingresar botellas, 2), Consultar saldo, 3) Salir  "
+					Escribir "Selecione menu, ingresar botellas, consultar saldo, salir "
 					Leer menu
-					si menu == "Ingresar botellas" Entonces
+					si menu == "ingresar botellas" Entonces
 						Escribir "Cantidad de botellas"
 						Leer botellas
 						Para i = 1 Hasta botellas Hacer
@@ -51,10 +51,10 @@ Algoritmo Login_Ejercicio
 							Escribir "Devolviendo material"
 						FinSi
 					FinSi
-					si menu == "Consultar saldo" Entonces
+					si menu == "consultar saldo" Entonces
 						Escribir "Tu saldo es de: ", saldo
 					FinSi
-					si menu == "Salir" Entonces
+					si menu == "salir" Entonces
 						login = Falso
 					FinSi
 				Mientras Que login
