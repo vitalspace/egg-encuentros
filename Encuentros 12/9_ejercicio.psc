@@ -1,5 +1,5 @@
-//Los empleados de una fábrica trabajan en dos turnos: Diurno y Nocturno. Se desea calcular el
-//jornal diario de acuerdo con las siguientes reglas:
+//	Los empleados de una fábrica trabajan en dos turnos: Diurno y Nocturno. Se desea calcular el
+//	jornal diario de acuerdo con las siguientes reglas:
 //	a) La tarifa de las horas diurnas es de $ 90
 //	b) La tarifa de las horas nocturnas es de $ 125
 //	c) En caso de ser feriado, la tarifa se incrementa en un 10% si el turno es diurno y en
