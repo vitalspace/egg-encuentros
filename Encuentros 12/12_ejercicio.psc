@@ -1,5 +1,5 @@
-// Realizar una función que permita obtener el término n de la sucesión de Fibonacci. La
-// sucesión de Fibonacci es la sucesión de los siguientes números:
+// 	Realizar una función que permita obtener el término n de la sucesión de Fibonacci. La
+// 	sucesión de Fibonacci es la sucesión de los siguientes números:
 //	1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 //	Donde cada uno de los números se calcula sumando los dos anteriores a él. Por ejemplo:
 //	La sucesión del número 2 se calcula sumando (1+1)
@@ -27,7 +27,7 @@ Funcion fibonacci(num)
 FinFuncion
 
 Algoritmo sin_titulo
-	Definir num, limit Como Entero
+	Definir num Como Entero
 	Escribir "Ingrese el numero" 
 	Leer num
 	fibonacci(num)
