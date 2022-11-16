@@ -27,7 +27,7 @@ Funcion fibonacci(num)
 FinFuncion
 
 Algoritmo sin_titulo
-	Definir num, limit Como Entero
+	Definir num Como Entero
 	Escribir "Ingrese el numero" 
 	Leer num
 	fibonacci(num)
