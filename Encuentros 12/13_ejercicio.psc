@@ -15,7 +15,7 @@ Funcion capicua(num)
 		Si a == b Entonces
 			Escribir  "Este numero es capicua"
 		SiNo
-			Escribir "Este numero no es capicua 1212"
+			Escribir "Este numero no es capicua"
 		FinSi
 	FinSi
 		
@@ -25,7 +25,7 @@ Funcion capicua(num)
 		Si a == b Entonces
 			Escribir "Este numero es capicua"
 		SiNo
-			Escribir "Este numero no es capicua 1212"
+			Escribir "Este numero no es capicua"
 		FinSi
 	FinSi
 	
