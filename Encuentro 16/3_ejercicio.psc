@@ -9,38 +9,26 @@
 //	dado que 11 es menor que 13, entonces: el residuo es 11 y el cociente es 3.
 
 
-SubProceso Cambiar<-Letras(frase)
-	Definir  Cambiar, auxfrase, letra, vocales Como Caracter
-	Definir control, i, j Como Entero
-	vocales = "aeiou"
-	auxfrase = ""
-	frase  = Minusculas(frase)
-	Para  i = 0  Hasta Longitud(frase) Hacer
-		control = 0
-		letra = Subcadena(frase, i, i)
-		Para j = 1 Hasta Longitud(vocales) Hacer
-			Si letra == Subcadena(vocales, j, j) Entonces
-				control = 1
-				Segun Subcadena(vocales, j, j) Hacer
-					"a": auxfrase = Concatenar(auxfrase, "@")
-					"e": auxfrase = Concatenar(auxfrase, "#")
-					"i": auxfrase = Concatenar(auxfrase, "$")
-					"o": auxfrase = Concatenar(auxfrase, "%")
-					"u": auxfrase = Concatenar(auxfrase, "*") 
-				FinSegun
-			FinSi
-		FinPara
-		Si control == 0 Entonces
-			auxfrase = Concatenar(auxfrase,letra)
-		FinSi
-	FinPara
-	Cambiar=auxfrase
-FinSubProceso
-
 Algoritmo sin_titulo
-	Definir frase Como Caracter
-	escribir "Ingrese una frase: "
-	leer frase
+	Definir dividiendo, divisor, contador Como Entero
 	
-	Escribir Letras(frase)
+	contador = 0 
+	
+	Escribir "Ingrese el dividiendo"
+	Leer dividiendo 
+	Escribir "Ingrese el divisor"
+	Leer divisor
+	
+	
+	si dividiendo == 0 o dividiendo < divisor Entonces
+		Escribir "No se puede realizar esta division"
+	FinSi
+	
+	Mientras dividiendo >= divisor Hacer
+		contador = contador + 1
+		dividiendo = dividiendo - divisor
+	FinMientras
+	
+	Escribir "El residuo de la division es ", dividiendo, " y el cociente es ", contador
+	
 FinAlgoritmo

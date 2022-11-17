@@ -9,13 +9,11 @@
 //	La salida del programa debería ser: @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10.
 //	NOTA: investigue el uso de la función concatenar de PSeInt para armar la palabra/frase.
 
-Algoritmo sin_titulo
-	Definir frase, auxfrase, letra, vocales Como Caracter
+SubProceso Cambiar<-Letras(frase)
+	Definir  Cambiar, auxfrase, letra, vocales Como Caracter
 	Definir control, i, j Como Entero
 	vocales = "aeiou"
 	auxfrase = ""
-	Escribir "Ingrese una frase"
-	Leer frase
 	frase  = Minusculas(frase)
 	Para  i = 0  Hasta Longitud(frase) Hacer
 		control = 0
@@ -36,5 +34,14 @@ Algoritmo sin_titulo
 			auxfrase = Concatenar(auxfrase,letra)
 		FinSi
 	FinPara
-	Escribir 'Frase codificada: ',auxfrase
+	Cambiar=auxfrase
+FinSubProceso
+
+Algoritmo sin_titulo
+	Definir frase Como Caracter
+	escribir "Ingrese una frase: "
+	leer frase
+	
+	Escribir Letras(frase)
 FinAlgoritmo
+
