@@ -1,5 +1,5 @@
-//Realizar un procedimiento que permita intercambiar el valor de dos variables de tipo entero.
-//La variable A, debe terminar con el valor de la variable B.
+//	Realizar un procedimiento que permita intercambiar el valor de dos variables de tipo entero.
+//	La variable A, debe terminar con el valor de la variable B.
 
 
 Funcion calcular(a Por Valor, b Por Valor, numa Por Referencia, numb Por Referencia )
