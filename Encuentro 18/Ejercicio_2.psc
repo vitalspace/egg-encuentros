@@ -3,22 +3,26 @@
 // arreglo.
 
 Algoritmo sin_titulo
-	Dimension valores(10)
-	Definir i, valores, counter, suma, resta, multi, div Como Real	
+	Dimension valores(3)
+	Definir i, valores, counter, suma, resta, multi, div, res Como Real	
 	
 	suma = 0
-	resta = 2
+	resta = 0
 	multi = 1
 	div = 1
 	
-	Para i = 0  Hasta 9 Hacer
+	Para i = 0  Hasta 2 Hacer
 		Escribir "Ingrese el indice ", i 
 		Leer valores(i)
 	FinPara
 	
-	Para i = 0 Hasta 9 Hacer
+	Para i = 0 Hasta 2 Hacer
 		suma = suma + valores(i)
-		resta = resta - valores(i)
+		si i = 0 Entonces
+			resta = valores[i]
+		SiNo
+			resta = resta - valores[i]
+		FinSi
 		multi = multi * valores(i)
 		div = div / valores(i)
 	FinPara
