@@ -1,0 +1,19 @@
+// Realizar un programa que rellene un vector con 5 valores ingresados por el usuario y los
+// muestre por pantalla.
+
+Algoritmo _arrays
+	Dimension valores(5)
+	Definir i, valores Como Entero	
+	Para i = 0  Hasta 4 Hacer
+		Escribir "Ingrese el indice ", i 
+		Leer valores(i)
+	FinPara
+	
+	Para i = 0 Hasta  4
+		Si i == 4 Entonces
+			Escribir valores(i)
+		SiNo
+			Escribir valores(i) "," Sin Saltar
+		FinSi
+	FinPara
+FinAlgoritmo
