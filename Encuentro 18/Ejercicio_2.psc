@@ -8,8 +8,8 @@ Algoritmo sin_titulo
 	
 	suma = 0
 	resta = 0
-	multi = 1
-	div = 1
+	multi = 0
+	div = 0
 	
 	Para i = 0  Hasta 2 Hacer
 		Escribir "Ingrese el indice ", i 
