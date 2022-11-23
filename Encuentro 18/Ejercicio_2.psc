@@ -20,11 +20,13 @@ Algoritmo sin_titulo
 		suma = suma + valores(i)
 		si i = 0 Entonces
 			resta = valores[i]
+			multi = valores[i]
+			div = valores[i]
 		SiNo
 			resta = resta - valores[i]
+			multi = multi * valores(i)
+			div = div / valores(i)	
 		FinSi
-		multi = multi * valores(i)
-		div = div / valores(i)
 	FinPara
 	
 	Escribir  suma  
