@@ -9,7 +9,7 @@
 //	de lo contrario debe darle un mensaje al usuario de que esa posición estaba ocupada.
 //Por ejemplo, suponiendo la siguiente frase y los subíndices del vector:
 
-// Si se desea ingresar el carácter “%” en la posición 10, entonces el resultado sería:
+Si se desea ingresar el carácter “%” en la posición 10, entonces el resultado sería:
 
 Algoritmo _bigg
 	Definir frase, letra, vector Como Caracter
